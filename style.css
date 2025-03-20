@@ -297,9 +297,12 @@ main>.segundotexto {
 
 .Planos {
   text-align: center;
-  color: var(--cor0);
-
-  padding-top: 1000px;
+  color: var(--cor5);
+  background-color:var(--cor6) ;
+  border: solid var(--cor6);
+  
+  margin-top: 1000px;
+  
 }
 
 h3 {
@@ -323,9 +326,10 @@ h5 {
   margin-left: 0px;
   padding-right: 11px;
   padding-left: 10px;
-  top: 1867px;
-  ;
-  left: 478px;
+ 
+  left: 425px;
+  top: 1862px;
+
   padding-top: 6px;
 }
 
@@ -361,8 +365,9 @@ h5 {
 
 .box1 {
   position: absolute;
-  top: 1872px;
-  left: 428px;
+  left: 374px;
+  top: 1867px;
+
 
   padding-right: 66px;
   padding-left: 44px;
@@ -383,7 +388,8 @@ h5 {
 
 .pequenotitulo2 {
   width: 152px;
-  left: 22px;
+  left: 885px;
+  top: 1841px;
 
   position: absolute;
   background-color: #797979;
@@ -399,20 +405,19 @@ h5 {
   padding-left: 11px;
   padding-top: 6.447;
   padding-right: 11px;
-  top: 1841px;
-  left: 912px;
+  
 
 }
 
 .preço2 {
-  width: 120px;
-
+  width: 140px;
   text-align: top;
   margin-top: 19px;
   margin-left: 3px;
-
+  left: 23px;
+  width: 120px;
+  padding-top: 12px;
   padding-left: 7px;
-  padding-top: 10px;
 
 }
 
@@ -429,12 +434,12 @@ h5 {
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 1690px;
+  top: 1867px;
+  margin-top: 0px;
 
+  
+  margin-left: 860px;
   margin-right: 300px;
-  margin-left: 890px;
-  margin-top: 175px;
-
   padding-right: 66px;
   padding-left: 44px;
   padding-top: 6px;
@@ -458,22 +463,30 @@ h5 {
   padding-left: 11px;
   padding-top: 6px;
   padding-right: 11px;
-  top: 1846px;
-  left: 1389px;
+  
+  top: 1841px;
+  left: 1375px;
 
   background-color: var(--cor3);
   border-radius: 2px;
 }
+.preço3{
+  position: absolute;
+  color: var(--cor3);
 
+  width: 195px;
+  padding-bottom: 4px;
+  padding-top: 8px;
+}
 .pequenotexto3 {
   color: var(--cor0);
-
 }
 
 .box3 {
   position: absolute;
-  top: 1872px;
-  left: 1350px;
+  top: 1867px;  
+  left: 1337px;
+
 
   padding-left: 44px;
   padding-right: 66px;
@@ -497,4 +510,13 @@ h5 {
 
   text-align: center;
   border-radius: 10px;
+}
+
+.localização {
+  text-align: center;
+  color: var(--cor1);
+
+  margin-top: 618px;
+  margin-left: 0px;
+
 }
