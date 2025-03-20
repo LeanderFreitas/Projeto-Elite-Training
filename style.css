@@ -314,17 +314,19 @@ h5 {
   color: var(--cor3);
 }
 
-.preços {}
-
-.box1>h3 {
+.pequenotitulo1 {
   position: absolute;
-  left: 50px;
   background-color: #797979;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 5px;
   margin: -19px 10px 9px -19px;
-  padding-left: 7px;
-  margin-left: 0px
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 10px;
+  top: 1867px;
+  ;
+  left: 478px;
+  padding-top: 6px;
 }
 
 .box1>h5 {
@@ -379,7 +381,7 @@ h5 {
 
 }
 
-.box2>.pequenotitulo2 {
+.pequenotitulo2 {
   width: 152px;
   left: 22px;
 
@@ -388,18 +390,21 @@ h5 {
   border-radius: 5px;
   padding: 5px;
   margin: -19px 10px 9px -19px;
-
-  padding-left: 7px;
   margin-left: 0px;
-
-  top: 0px;
-  left: 41px;
   right: 18px;
   bottom: 249px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-top: 6.447;
+  padding-right: 11px;
+  top: 1841px;
+  left: 912px;
 
 }
 
-.box2>.preço2 {
+.preço2 {
   width: 120px;
 
   text-align: top;
@@ -445,10 +450,23 @@ h5 {
   border: solid var(--cor3);
   border-radius: 7px;
 }
-.box3>.pequenotitulo3 {
+
+.pequenotitulo3 {
   position: absolute;
+
+  margin-left: 2px;
+  padding-left: 11px;
+  padding-top: 6px;
+  padding-right: 11px;
+  top: 1846px;
+  left: 1389px;
+
   background-color: var(--cor3);
-  border-radius: 5px;
+  border-radius: 2px;
+}
+
+.pequenotexto3 {
+  color: var(--cor0);
 
 }
 
@@ -471,8 +489,12 @@ h5 {
 
 }
 
-div>.mapa {
-  margin-top: 1000px;
+#mapa {
+  position: absolute;
+
+  margin-left: 640px;
+  margin-top: 657px;
+
   text-align: center;
   border-radius: 10px;
 }
