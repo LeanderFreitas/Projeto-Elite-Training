@@ -43,9 +43,63 @@ h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
+  font-style: normal;  
 }
+@media (max-width:414px){  
+  *{
+    margin: 0px;
+    padding: 0px;
+  } 
+  body{
+    width: 980px;
+    height: 3308px;  
+  } 
+  .sectionnovabar{
+    margin-left: 30px;
+    margin-top: 14px;
+  }
+  .titulo{
+    text-align: center;
+    left: 434px;
+  }
+  nav > .links{
+    text-align: center;
+    padding-left: 245px;
+    font-size: 1.5em;
+  }
+  a {
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 5px;
+    padding-top: 1px;
+    padding-left: 314px;
+  }
+  
+  a:hover {
+    color: #ffaa55;
+}
+  
+  .logodaacademia{
+    margin-top: 10px;
+    margin-left: 41px;
+  }
+  main > .content1{
+    margin-left: 155px;
+    margin-top: 151px;
+    width: 700px;
+    height: 700px;
+  }
+  main > .primeirotitulo{
+    position: absolute;
+    height: 180px;
+    width: 1000px;
+    
+    left: 15px;
+    bottom: 472px;
+    top: 228px;
 
+  }
+  }
 header {
   border: solid var(--cor0) 1px;
   border-top: none;
