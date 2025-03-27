@@ -624,9 +624,13 @@ h5 {
 
   width: 100px;
   height: 100px;
+}
+button{
+  position: absolute;
+  background: var(--cor3);
+  color: var(--cor6);
 
 }
-
 #mapa {
   position: absolute;
 
