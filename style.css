@@ -51,8 +51,8 @@ h1 {
     padding: 0px;
   } 
   body{
-    width: 980px;
-    height: 3308px;  
+    height: 3121px;
+    width: 414px;
   } 
   .sectionnovabar{
     margin-left: 30px;
@@ -64,11 +64,22 @@ h1 {
   }
   .navbar{
     width: 418px;
+    padding-top: 0px;
+    padding-bottom: 63px;
+  
+    padding-top: 0px;
+    padding-bottom: 52px;
+
   }
   nav > .links{
-    text-align: center;    
+    position: absolute;
     padding-left: 0px;
     font-size: 1em;
+    
+    bottom: 738px;
+    padding-left: 0px;
+
+  
   }
   a {
     text-decoration: none;
@@ -87,6 +98,9 @@ h1 {
     height: 50px;
     padding-bottom: 0px;
     margin-bottom: 22px;
+  }
+  main{
+    height: 2873px;
   }
   main > .content1{
     text-align: center;
@@ -149,6 +163,16 @@ h1 {
   .preço1{ 
     text-align: center;
 
+  }
+  .localização{
+    
+    width: 374px;
+    padding-left: 14px;
+
+  }
+  footer > p {
+    text-align: center;
+    width: 420px;
   }
 }
 header {
