@@ -121,7 +121,7 @@ h1 {
 
   }
   main > .primeirotexto{
-    position: absolute;
+    position: absolute ;
     font-size: 0.7em;
     border-radius: solid right var(--cor6);
     border: var(--cor6);
