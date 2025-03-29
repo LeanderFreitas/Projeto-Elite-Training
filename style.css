@@ -625,11 +625,14 @@ h5 {
   width: 100px;
   height: 100px;
 }
-button{
+.botão{
   position: absolute;
   background: var(--cor3);
   color: var(--cor6);
 
+}
+.botão1{
+  
 }
 #mapa {
   position: absolute;
