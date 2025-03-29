@@ -223,17 +223,24 @@ header>section>nav>img {
 .links {
   text-align: center;
   padding-left: 750px;
+ 
 }
 
 a {
   text-decoration: none;
   color: var(--cor3);
-  padding: 5px;
+  padding: 7px;
   padding-top: 1px;
+  padding-bottom: 2px;
 }
 
 a:hover {
   color: #ffaa55;
+  background-color: var(--cor3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px var rgba(0, 0, 0, 0.295);
+
+  
 }
 
 main {
@@ -626,13 +633,22 @@ h5 {
   height: 100px;
 }
 .botão{
-  position: absolute;
-  background: var(--cor3);
-  color: var(--cor6);
+  text-align: center;
+  background: var(--cor4);
+  color: var(--cor4);
+  margin-top:644px;
+  width: 170px;
+  border-radius: 10px 10px 10px 10px; 
+  padding: 10px;
+  margin-left: 858px;
 
 }
-.botão1{
-  
+.botão:hover{
+  background:var(--cor3) ;
+  color:var(--cor6);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+  width:172px;
+  height: ;
 }
 #mapa {
   position: absolute;
