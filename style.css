@@ -45,14 +45,13 @@ h1 {
   font-weight: weight;
   font-style: normal;  
 }
-@media (max-width:414px){  
+@media screen and (max-width:414px){  
   *{
     margin: 0px;
     padding: 0px;
   } 
   body{
-    height: 3121px;
-    width: 414px;
+   overflow: hidden;
   } 
   .sectionnovabar{
     margin-left: 30px;
@@ -111,12 +110,14 @@ h1 {
     margin-left: 71px;
   }
   main > .primeirotitulo{
+  display:;
   position: absolute;
   font-size: 1.2em;  
   height: 28px;
-  left: 33px;
   width: 373px;
   top: 309px;
+  left: 31px;
+
 
 
   }
