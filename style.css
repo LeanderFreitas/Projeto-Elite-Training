@@ -102,6 +102,9 @@ h1 {
   main{
     height: 2873px;
   }
+  .content{
+    flex-direction: column;
+  }
   main > .content1{
     text-align: center;
     margin-top: 215px;
@@ -110,7 +113,6 @@ h1 {
     margin-left: 71px;
   }
   main > .primeirotitulo{
-  display:;
   position: absolute;
   font-size: 1.2em;  
   height: 28px;
@@ -175,7 +177,7 @@ h1 {
     left: 109px;
   }
   .preço1{ 
-    text-align: center;
+    
 
   }
   .localização{
@@ -278,7 +280,9 @@ main>p {
 strong {
   color: #ffaa55;
 }
-
+.content{
+  justify-content: space-around;
+}
 main>.primeirotitulo {
   position: absolute;
   color: var(--cor3);
