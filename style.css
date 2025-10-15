@@ -134,6 +134,11 @@ strong {
 .content{
   justify-content: space-around;
 }
+.content:hover{
+  border-left-width:15px;
+  cursor: pointer;
+  border-color: var(--cor6);
+}
 main>.primeirotitulo {
   position: absolute;
   color: var(--cor3);
