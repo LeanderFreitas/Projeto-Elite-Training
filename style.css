@@ -7,7 +7,7 @@
   font-style: normal;
 
 
-  margin: 2px;
+  margin: 0px;
   padding: 0px;
   border: 0px;
   text-decoration: none;
@@ -19,7 +19,6 @@
 :root {
   --cor0: #FFFFFF;
   --cor1: #D9D9D9;
-  --cor2: #fbff00;
   --cor3: #797979;
   --cor4: #000000;
   --cor5: #222222;
@@ -44,152 +43,6 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;  
-}
-@media screen and (max-width:414px){  
-  *{
-    margin: 0px;
-    padding: 0px;
-  } 
-  body{
-   overflow: hidden;
-  } 
-  .sectionnovabar{
-    margin-left: 30px;
-    margin-top: 14px;
-    padding-bottom: 54px;
-  }
-  .titulo{
-    text-align: center;
-    left: 434px;
-  }
-  .navbar{
-    width: 418px;
-    padding-top: 0px;
-    padding-bottom: 63px;
-  
-    padding-top: 0px;
-    padding-bottom: 52px;
-
-  }
-  nav > .links{
-    position: absolute;
-    padding-left: 0px;
-    font-size: 1em;
-    
-    bottom: 738px;
-    padding-left: 0px;
-
-  
-  }
-  a {
-    text-decoration: none;
-    color: var(--cor3);
-    padding: 5px;
-    padding-top: 1px;
-    padding-left: 314px;
-  }
-  
-  a:hover {
-    color: #ffaa55;
-}
-  
- .navbar > .logodaacademia{  
-    width: 50px;
-    height: 50px;
-    padding-bottom: 0px;
-    margin-bottom: 22px;
-  }
-  main{
-    height: 2873px;
-  }
-  .content{
-    flex-direction: column;
-  }
-  main > .content1{
-    text-align: center;
-    margin-top: 215px;
-    width: 300px;
-    height: 300px;
-    margin-left: 71px;
-  }
-  main > .primeirotitulo{
-  position: absolute;
-  font-size: 1.2em;  
-  height: 28px;
-  width: 373px;
-  top: 309px;
-  left: 31px;
-
-
-
-  }
-  main > .primeirotexto{
-    position: absolute ;
-    font-size: 0.7em;
-    border-radius: solid right var(--cor6);
-    border: var(--cor6);
-    
-    width: 401px;
-    bottom: 0px;
-    top: 653px;
-
-   
-    left: 0px;
-    margin-left: 0px;
-    top: 686px;
-    padding-bottom: 195px;
-    padding-left: 7px;
-
-
-  }
-  main > .content2{
-    text-align: center;
-    margin-top: 215px;
-    width: 300px;
-    height: 300px;
-    margin-left: 71px;
-    
-    left: 0px;
-    top: 902px;
-  }
-  .segundotitulo{
-    font-size: 1.2em;  
-    height: 28px;
-    left: 33px;
-    width: 373px;
-    top: 309px;
-  }
-  .segundotexto{
-
-  }
-  main > .content3{
-    text-align: center;
-    margin-top: 215px;
-    width: 300px;
-    height: 300px;
-    margin-left: 71px;
-  }  
-  main > .Planos {
-    width: 409px;
-  }
-  .box1{
-    position: absolute;
-    left: 109px;
-  }
-  .preço1{ 
-    
-
-  }
-  .localização{
-    
-    width: 374px;
-    padding-left: 14px;
-
-  }
-  footer > p {
-    text-align: center;
-    width: 420px;
-  }
 }
 header {
   border: solid var(--cor0) 1px;
@@ -226,10 +79,9 @@ header>section>nav>img {
 .links {
   text-align: center;
   padding-left: 750px;
- 
 }
 
-a {
+#botaodonav {
   text-decoration: none;
   color: var(--cor3);
   padding: 7px;
@@ -237,16 +89,15 @@ a {
   padding-bottom: 2px;
 }
 
-a:hover {
+#botaodonav:hover {
   color: #ffaa55;
   background-color: var(--cor3);
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px black;  
+  border-radius: 5px;
 }
 
 main {
   background-color: var(--cor5);
-  height: 3000px;
+  height: 2300px;
 }
 
 .content1 {
@@ -635,41 +486,21 @@ h5 {
   width: 100px;
   height: 100px;
 }
-.botão{
+#botaofooter{
+  display: flex;
   text-align: center;
-  background: var(--cor4);
+  background-color: var(--cor3);
   color: var(--cor4);
-  margin-top:644px;
-  width: 170px;
-  border-radius: 10px 10px 10px 10px; 
+  margin: 500px;
+  margin-left: 900px;
   padding: 10px;
-  margin-left: 858px;
-
+  width: 112px;
+  border-radius: 5px;
 }
-.botão:hover{
-  background:var(--cor3) ;
-  color:var(--cor6);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
-  width:172px;
-  height: ;
-}
-#mapa {
-  position: absolute;
-
-  margin-left: 640px;
-  margin-top: 657px;
-
-  text-align: center;
-  border-radius: 10px;
-}
-
-.localização {
-  text-align: center;
-  color: var(--cor1);
-
-  margin-top: 618px;
-  margin-left: 0px;
-
+#botaofooter:hover{
+  width:172px; 
+  background-color: var(--cor4);
+  color: var(--cor3); 
 }
 footer{
   background-color: #000000;
